@@ -11,7 +11,7 @@ int gcd(int a, int b) {
    else 
    return gcd(a, b-a);
 }
-
+ 
 int main() {
    int a, b;
    cout<<"enter first number:- ";
