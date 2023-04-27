@@ -19,7 +19,7 @@ int binarySearch(int arr[], int x, int b, int a) {
 }
 
 int main(void) {
-  int arr[] = {3, 4, 5, 6, 7, 8, 9};
+  int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
   int x;
   cout<<"enter number to search:-";
   cin>>x;
