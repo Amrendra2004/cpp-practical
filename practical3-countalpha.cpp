@@ -8,7 +8,7 @@ int main() {
     string text;
 
     cout << "Enter the text: ";
-    cin>>text;
+    getline(cin,text);
 
     for(char c : text) { 
         if(isalpha(c)) {
