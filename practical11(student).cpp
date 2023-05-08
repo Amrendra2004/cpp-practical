@@ -23,7 +23,7 @@ public:
     }
     void writefile(){
       ofstream myfile;
-      myfile.open ("file1.txt");
+      myfile.open ("file.txt");
       myfile << "Name of student is "<<name<<"|| Roll number:-"<<rollNo<<"|| Class:-"<<classs<<"|| year:- "<<year<<"|| marks:-"<<marks<<endl;
       myfile.close();
     }
@@ -51,7 +51,7 @@ int main()
     s1.writefile();
     string myText;
 
-    ifstream MyReadFile("file1.txt");
+    ifstream MyReadFile("file.txt");
     while (getline (MyReadFile, myText)) {
       cout << myText;
     }
